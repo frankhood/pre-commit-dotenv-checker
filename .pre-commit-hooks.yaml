@@ -1,6 +1,6 @@
 -   id: check-dotenv
     name: "Checking dotenv"
     entry: check-dotenv
-    pass_filenames: true
+    pass_filenames: false
     language: python
     always_run: true

@@ -34,7 +34,6 @@ def get_variables_list(filecontent, filename):
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
-    print("ARGV => ", sys.argv)
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--from-file", type=str, help="Choose from which file do you want to make a diff", required=True
@@ -43,8 +42,6 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         "--to-file", type=str, help="Choose to which file do you want to make a diff", required=True
     )
     args = parser.parse_args(argv)
-    print("ARGS => ", args)
-    print("ARGS DICT => ", args.__dict__)
 
     FROM_ENV_FILE = args.from_file
     TO_ENV_FILE = args.to_file

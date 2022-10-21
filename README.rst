@@ -30,8 +30,9 @@ Use this hook in your `.pre-commit-config.yaml` like this:
     - repo: https://github.com/frankhood/pre-commit-dotenv-checker
         rev: {{tag name}}  
         hooks:
-        - id: makemigrations-check-absent
-            name: "Check for absent migrations"
+        - id: check-dotenv
+            name: "Check missing variables in dotenv"
+            args: ["--from-file", ".env", "--to-file", ".env_template"]
 
 Features
 --------

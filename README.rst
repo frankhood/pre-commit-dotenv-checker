@@ -1,5 +1,5 @@
 =============================
-pre-commit hooks django migrations
+pre-commit dotenv checker
 =============================
 
 .. image:: https://badge.fury.io/py/pre-commit-dotenv-checker.svg/?style=flat-square
@@ -12,7 +12,7 @@ pre-commit hooks django migrations
     :target: https://coveralls.io/github/frankhood/pre-commit-dotenv-checker?branch=main
     :alt: Coverage Status
 
-Hook for pre-commit and Django migrations
+Hook for pre-commit dotenv checker
 
 Documentation
 -------------

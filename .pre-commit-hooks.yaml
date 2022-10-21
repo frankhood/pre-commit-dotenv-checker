@@ -1,6 +1,6 @@
 -   id: check-dotenv
     name: "Checking dotenv"
-    entry: python hooks/check_dotenv.py
+    entry: check-dotenv
     pass_filenames: true
     language: python
     always_run: true

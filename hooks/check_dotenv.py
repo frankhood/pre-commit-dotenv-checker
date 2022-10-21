@@ -34,7 +34,7 @@ def get_variables_list(filecontent, filename):
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
-    print("ARGV => ", argv)
+    print("ARGV => ", sys.argv)
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--from-file", type=str, help="Choose from which file do you want to make a diff", required=True

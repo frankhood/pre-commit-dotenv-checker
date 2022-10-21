@@ -1,0 +1,6 @@
+-   id: dotenv-checker
+    name: "Checking dotenv"
+    entry: dotenv-checker
+    pass_filenames: true
+    language: python
+    always_run: true

@@ -33,7 +33,7 @@ def get_variables_list(filecontent, filename):
     return file_variables
 
 
-def main(argv: Optional[Sequence[str]]) -> int:
+def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--from-file", type=str, help="Choose from which file do you want to make a diff", required=True
